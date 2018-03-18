@@ -11,6 +11,9 @@ html, body {
     height: 100%;
     width: 100%;
 }
+body{
+    background-color: #f0a7a4;
+}
 h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
@@ -54,6 +57,7 @@ h1{
 h2{
     font-family: 'BodoniXT';
     font-weight: 300;
+    font-size: 20px;
 }
 a{
     color: #ff8c87;
