@@ -1,8 +1,8 @@
 {
 "name": "Tatiana Molina",
 "short_name": "tatymoly",
-"theme_color": "#ffffff",
-"background_color": "#f0a7a4",
+"theme_color": "#f0a7a4",
+"background_color": "#ffffff",
 "display": "standalone",
 "orientation": "portrait",
 "start_url": "/",
