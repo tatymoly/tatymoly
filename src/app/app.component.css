@@ -96,7 +96,9 @@ h2 hr{
     font-size: 16px;
     line-height: 30px;
 }
-
+.about-text p a{
+    color: #ff8c87;
+}
 /* Footer */
 
 .footer{
