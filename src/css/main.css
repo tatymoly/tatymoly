@@ -1,66 +1,72 @@
 /* Fonts */
 @font-face {
-    font-family: 'BodoniXT';
-    src: url('../assets/fonts/BodoniXT.eot');
-    src: url('../assets/fonts/BodoniXT.eot?#iefix') format('embedded-opentype'),
-        url('../assets/fonts/BodoniXT.woff2') format('woff2'),
-        url('../assets/fonts/BodoniXT.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+  font-family: "BodoniXT";
+  src: url("../assets/fonts/BodoniXT.eot");
+  src: url("../assets/fonts/BodoniXT.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/BodoniXT.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Comfortaa';
-    src: url('../assets/fonts/Comfortaa-Light.eot');
-    src: url('../assets/fonts/Comfortaa-Light.eot?#iefix') format('embedded-opentype'),
-        url('../assets/fonts/Comfortaa-Light.woff2') format('woff2'),
-        url('../assets/fonts/Comfortaa-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Comfortaa";
+  src: url("../assets/fonts/Comfortaa-Light.eot");
+  src: url("../assets/fonts/Comfortaa-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/Comfortaa-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Nexa';
-    src: url('../assets/fonts/NexaBold.eot');
-    src: url('../assets/fonts/NexaBold.eot?#iefix') format('embedded-opentype'),
-        url('../assets/fonts/NexaBold.woff2') format('woff2'),
-        url('../assets/fonts/NexaBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Nexa";
+  src: url("../assets/fonts/NexaBold.eot");
+  src: url("../assets/fonts/NexaBold.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/NexaBold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
 }
 
 /* Reset */
 
-html, body, div {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    font-family: 'Comfortaa';
-}
-  
-html, body {
-    height: 100%;
-    width: 100%;
-}
-h1, h2, h3, h4, h5, h6{
-    margin: 0;
-}
-section{
-    width: 100%;
+html,
+body,
+div {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa";
 }
 
-h1{
-    font-family: 'Nexa';
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
-h2{
-    font-family: 'BodoniXT';
-    font-weight: 300;
-    font-size: 20px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
-a{
-    text-decoration: none;
-    font-weight: 700;
+section {
+  width: 100%;
 }
-a:hover{
-    color: white;
+
+h1 {
+  font-family: "Nexa";
+}
+h2 {
+  font-family: "BodoniXT";
+  font-weight: 300;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+a:hover {
+  color: white;
 }
