@@ -2,8 +2,7 @@
 @font-face {
   font-family: "BodoniXT";
   src: url("../assets/fonts/BodoniXT.eot");
-  src: url("../assets/fonts/BodoniXT.eot?#iefix") format("embedded-opentype"),
-    url("../assets/fonts/BodoniXT.woff2") format("woff2");
+  src: url("../assets/fonts/BodoniXT.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
@@ -11,9 +10,7 @@
 @font-face {
   font-family: "Comfortaa";
   src: url("../assets/fonts/Comfortaa-Light.eot");
-  src: url("../assets/fonts/Comfortaa-Light.eot?#iefix")
-      format("embedded-opentype"),
-    url("../assets/fonts/Comfortaa-Light.woff2") format("woff2");
+  src: url("../assets/fonts/Comfortaa-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
@@ -21,8 +18,7 @@
 @font-face {
   font-family: "Nexa";
   src: url("../assets/fonts/NexaBold.eot");
-  src: url("../assets/fonts/NexaBold.eot?#iefix") format("embedded-opentype"),
-    url("../assets/fonts/NexaBold.woff2") format("woff2");
+  src: url("../assets/fonts/NexaBold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
 }
