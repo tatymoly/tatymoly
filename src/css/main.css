@@ -1,6 +1,6 @@
 /* Fonts */
 @font-face {
-  font-family: "BodoniXT";
+  font-family: "BodoniXT", sans-serif;
   src: url("../assets/fonts/BodoniXT.eot");
   src: url("../assets/fonts/BodoniXT.woff2") format("woff2");
   font-weight: 500;
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", sans-serif;
   src: url("../assets/fonts/Comfortaa-Light.eot");
   src: url("../assets/fonts/Comfortaa-Light.woff2") format("woff2");
   font-weight: 300;
@@ -16,7 +16,7 @@
 }
 
 @font-face {
-  font-family: "Nexa";
+  font-family: "Nexa", sans-serif;
   src: url("../assets/fonts/NexaBold.eot");
   src: url("../assets/fonts/NexaBold.woff2") format("woff2");
   font-weight: bold;
