@@ -9,6 +9,9 @@
   color: #ffffff;
   text-align: center;
   .navbar-fixed {
+    .sidenav-trigger {
+      color: #18a3cc;
+    }
     nav {
       background: linear-gradient(
         to right,
@@ -16,6 +19,9 @@
         rgba(255, 56, 115, 1)
       );
       box-shadow: none;
+    }
+    ul {
+      background: transparent;
     }
     .sidenav {
       background: white;
