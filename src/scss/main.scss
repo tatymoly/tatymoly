@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Roboto:700");
+
+/* Reset */
+
+html,
+body,
+div {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: auto;
+  width: 100%;
+  font-family: "Comfortaa", cursive;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+section {
+  width: 100%;
+}
+h2 {
+  font-weight: 300;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+a:hover {
+  color: white;
+}
+.row {
+  margin-bottom: 0;
+}
+
+.title {
+  width: 20%;
+  color: #1e90b2;
+  margin-left: 10%;
+  padding-top: 100px;
+}
+.title {
+  h2 {
+    font-size: 20px;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    hr {
+      width: 15px;
+      border: none;
+      background-color: #1e90b2;
+      height: 2px;
+      width: 10px;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .title {
+    width: 50% !important;
+    margin-left: 5% !important;
+    padding-top: 50px !important;
+  }
+  .header-name {
+    width: 90% !important;
+    margin-left: 5% !important;
+    padding-top: 50px !important;
+  }
+  .header-prof {
+    width: 70% !important;
+    margin-left: 14.5% !important;
+  }
+  .header-prof h2 {
+    padding: 10px 10px !important;
+    display: block !important;
+    font-size: 20px !important;
+  }
+  .header-prof h2 hr {
+    display: none;
+  }
+  .projects-container {
+    display: block;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .project {
+    width: 100%;
+  }
+}
+.sidenav-overlay {
+  background: transparent !important;
+}

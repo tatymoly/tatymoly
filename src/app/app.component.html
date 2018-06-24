@@ -1,4 +1,36 @@
 <section class="header">
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="/">About me</a>
+          </li>
+          <li>
+            <a href="/projects">Projects</a>
+          </li>
+          <li>
+            <a href="/medium">Medium</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <a href="/">About me</a>
+      </li>
+      <li>
+        <a href="/projects">Projects</a>
+      </li>
+      <li>
+        <a href="/medium">Medium</a>
+      </li>
+    </ul>
+  </div>
   <div class="header-name">
     <h1>TATIANA MOLINA</h1>
   </div>
@@ -9,59 +41,7 @@
     </h2>
   </div>
 </section>
-
-<section class="projects">
-  <div class="title">
-    <h2>
-      <hr/> PROJECTS
-      <hr/>
-    </h2>
-  </div>
-  <div class="projects-container">
-    <div class="project">
-      <a target="_blank" rel="noopener" href="https://github.com/tatymoly/three_monkey">
-        <img src="../assets/images/monkey.jpg" alt="Threejs Monkey">
-        <h3>Loading 3D objects with Three.js</h3>
-      </a>
-    </div>
-    <div class="project">
-      <a target="_blank" rel="noopener" href="https://github.com/tatymoly/threejs-basics">
-        <img src="../assets/images/threecube.jpg" alt="Threejs Cube">
-        <h3>Basic 3D Scene with Three.js</h3>
-      </a>
-    </div>
-
-  </div>
-</section>
-
-<section class="about-me">
-  <div class="title">
-    <h2>
-      <hr/> ABOUT ME
-      <hr/>
-    </h2>
-  </div>
-  <div class="about-text">
-    <p>Hey! My name is Tatiana Molina. I'm a FrontEnd Developer, in love with Javascript. I'm
-      <a target="_blank" rel="noopener" href="https://goo.gl/maps/evTBYMPJozn">Colombian</a>, but I live in
-      <a target="_blank" rel="noopener" href="https://goo.gl/maps/S6t6tvVxngu">Santiago de Chile</a>.
-    </p>
-    <p>Right now I work at
-      <a target="_blank" rel="noopener" href="https://www.simplemoviles.cl/">Simple Moviles</a>, a mobile phone Company. I'm the main FrontEnd Developer there, we work with Angular 4, Angular
-      Material and Materialize.</p>
-    <p>I love learning, sharing and meeting people. That's why I created
-      <a target="_blank" rel="noopener" href="https://twitter.com/angularChile">Angular Chile</a>, a comminuty of Angular Developers in Chile. We enjoy sharing content about the Angular Community!</p>
-    <p>I'm passionate about traveling, Javascript and Conferences. I love writing post on
-      <a target="_blank" rel="noopener" href="https://medium.com/@tatymolys">Medium</a>. I like trekking, sometimes I knit and I love food and cooking, but I don't enjoy avocado toast. Oh! And
-      I really love
-      <a target="_blank" rel="noopener" href="http://cultofthepartyparrot.com/">Parrots
-        <img style="width: 30px;" src="../assets/images/parrot.gif" alt="party parrot">
-      </a>! If you want to know more about my profesional life, here is my
-      <a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1b_5ZQj2HriM9BmbVsVv4x8IXjQv3mRN1/view?usp=sharing">Resume.</a> Or if you want to know more about me, feel free to say hey on my social media!!
-    </p>
-  </div>
-</section>
-
+<router-outlet></router-outlet>
 <section class="footer">
   <div class="social-media">
     <a aria-label="linkedin" target="_blank" rel="noopener" href="https://www.linkedin.com/in/tatymoly/">
