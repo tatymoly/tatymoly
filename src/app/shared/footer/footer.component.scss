@@ -1,0 +1,27 @@
+/* Footer */
+
+.footer {
+  height: 70px;
+  background: linear-gradient(
+    to right,
+    rgb(178, 21, 68),
+    rgba(255, 56, 115, 1)
+  );
+  margin: 0;
+  padding-top: 10px;
+}
+.footer .social-media {
+  text-align: center;
+  margin: 0;
+  padding-top: 15px;
+}
+.footer a i {
+  font-size: 36px;
+}
+.footer a {
+  color: white;
+  margin: 3px;
+}
+.footer a:hover {
+  color: white;
+}
