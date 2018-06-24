@@ -94,5 +94,13 @@ a:hover {
   }
 }
 .sidenav-overlay {
-  background: transparent !important;
+  display: none !important;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

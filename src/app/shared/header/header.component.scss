@@ -46,6 +46,11 @@
   width: 40%;
   margin-left: 30%;
   padding-top: 80px;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
 }
 .header-name h1 {
   padding: 20px;
@@ -57,6 +62,11 @@
   width: 30%;
   margin-left: 35%;
   margin-top: -20px;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
 }
 .header-prof h2 hr {
   width: 15px;
