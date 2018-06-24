@@ -9,19 +9,18 @@
   );
   margin: 0;
   padding-top: 10px;
-}
-.footer .social-media {
-  text-align: center;
-  margin: 0;
-  padding-top: 15px;
-}
-.footer a i {
-  font-size: 36px;
-}
-.footer a {
-  color: white;
-  margin: 3px;
-}
-.footer a:hover {
-  color: white;
+  .social-media {
+    text-align: center;
+    margin: 0;
+    a {
+      color: white;
+      margin: 3px;
+      fa-icon {
+        font-size: 36px;
+      }
+    }
+    a:hover {
+      color: white;
+    }
+  }
 }
