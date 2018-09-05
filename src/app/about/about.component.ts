@@ -10,4 +10,8 @@ import { Router, ActivatedRoute } from "@angular/router";
 export class AboutComponent {
 
   constructor() {}
+
+  testing(){
+    let test = 'Hola mundo';
+  }
 }
