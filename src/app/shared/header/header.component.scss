@@ -1,11 +1,9 @@
 .header {
   width: 100%;
   height: 350px;
-  background: linear-gradient(
-    to right,
-    rgb(178, 21, 68),
-    rgba(255, 56, 115, 1)
-  );
+  background-image: url('../../../assets/images/wallpaper-tati.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   text-align: center;
   .navbar-fixed {
@@ -13,11 +11,7 @@
       color: #18a3cc;
     }
     nav {
-      background: linear-gradient(
-        to right,
-        rgb(178, 21, 68),
-        rgba(255, 56, 115, 1)
-      );
+      background: transparent;
       box-shadow: none;
     }
     ul {

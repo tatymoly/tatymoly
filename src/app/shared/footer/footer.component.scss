@@ -2,11 +2,9 @@
 
 .footer {
   height: 70px;
-  background: linear-gradient(
-    to right,
-    rgb(178, 21, 68),
-    rgba(255, 56, 115, 1)
-  );
+  background-image: url('../../../assets/images/wallpaper-tati.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding-top: 10px;
   .social-media {
